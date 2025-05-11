@@ -10,7 +10,7 @@ public class LoginTest {
     @Test
     public void mytestone() {
         // Set report file path
-        ExtentSparkReporter spark = new ExtentSparkReporter("src/test/resources/ExtentReports/index.html");
+        ExtentSparkReporter spark = new ExtentSparkReporter("target/ExtentReports/index.html");
 
         // Create ExtentReports instance and attach reporter
         ExtentReports extent = new ExtentReports();
